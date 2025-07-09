@@ -118,8 +118,8 @@ function BreweryTable() {
                     )}
                     <tr>
                       <td>{brewery.name}</td>
-                      <td>{brewery.brewery_type}</td>
                       <td>{brewery.country}</td>
+                      <td>{brewery.brewery_type}</td>
                     </tr>
                   </React.Fragment>
                 );
